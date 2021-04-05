@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:translationX="0dp"
+    android:translationY="0dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ultra"
+        android:text="@string/i_am_unique_i_am_special_i_am_me"
+        android:textAlignment="center"
+        android:textColor="#10C8A3"
+        android:textSize="45sp"
+        android:translationY="400dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="421dp"
+        android:layout_height="wrap_content"
+        android:text="@string/dashboard"
+        android:textColor="#1B1A1A"
+        android:textStyle="bold"
+        android:translationX="1dp"
+        android:translationY="720dp"
+        app:backgroundTint="#FF5722"
+        app:iconTint="#F8F6F6" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ultra"
+        android:text="@string/disabilty_need_not_be_an_obstacle_to_success"
+        android:textAlignment="center"
+        android:textColor="#040404"
+        android:translationX="1dp"
+        android:translationY="600dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ultra"
+        android:text="@string/stephan_hawking"
+        android:textColor="#050505"
+        android:textSize="14sp"
+        android:translationX="150dp"
+        android:translationY="615dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="307dp"
+        android:layout_height="278dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="64dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="433dp"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/unikme_logog" />
+
+</RelativeLayout>

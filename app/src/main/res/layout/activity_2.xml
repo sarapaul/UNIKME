@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:translationX="10dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="159dp"
+        android:layout_height="63dp"
+        android:text="@string/contact_us"
+        android:textColor="#0B0B0B"
+        android:textStyle="bold"
+        android:translationX="120dp"
+        android:translationY="80dp"
+        app:backgroundTint="#FBFAFA"
+        app:iconTint="#FDFCFC"
+        app:rippleColor="#F6F3F3" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="159dp"
+        android:layout_height="63dp"
+        android:text="@string/news"
+        android:textColor="#050505"
+        android:textStyle="bold"
+        android:translationX="120dp"
+        android:translationY="200dp"
+        app:backgroundTint="#FAF8F8"
+        app:iconTint="#FAF6F6"
+        app:rippleColor="#FAF7F7" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="159dp"
+        android:layout_height="63dp"
+        android:text="@string/join_unikme"
+        android:textColor="#070707"
+        android:textStyle="bold"
+        android:translationX="120dp"
+        android:translationY="320dp"
+        app:backgroundTint="#FAF7F6"
+        app:iconTint="#FAF6F6"
+        app:rippleColor="#FBFAFA" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="159dp"
+        android:layout_height="63dp"
+        android:text="@string/community"
+        android:textColor="#090909"
+        android:textStyle="bold"
+        android:translationX="120dp"
+        android:translationY="440dp"
+        app:backgroundTint="#F8F7F7"
+        app:iconTint="#FAF7F7"
+        app:rippleColor="#FAF9F9" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="159dp"
+        android:layout_height="63dp"
+        android:text="@string/appstore"
+        android:textColor="#050505"
+        android:textStyle="bold"
+        android:translationX="120dp"
+        android:translationY="560dp"
+        app:backgroundTint="#FBFAFA"
+        app:iconTint="#FAF6F6"
+        app:rippleColor="#F6F3F3" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="74dp"
+        android:layout_height="58dp"
+        android:contentDescription="@string/book"
+        android:importantForAccessibility="no"
+        android:translationX="10dp"
+        android:translationY="200dp"
+        app:srcCompat="@drawable/ic_baseline_book_24" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="73dp"
+        android:layout_height="58dp"
+        android:importantForAccessibility="no"
+        android:translationX="10dp"
+        android:translationY="320dp"
+        app:srcCompat="@drawable/ic_baseline_add_circle_24" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="75dp"
+        android:layout_height="61dp"
+        android:importantForAccessibility="no"
+        android:translationX="10dp"
+        android:translationY="440dp"
+        app:srcCompat="@drawable/ic_baseline_accessibility_24" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="73dp"
+        android:layout_height="66dp"
+        android:importantForAccessibility="no"
+        android:translationX="10dp"
+        android:translationY="80dp"
+        app:srcCompat="@drawable/ic_baseline_add_ic_call_24" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="78dp"
+        android:layout_height="62dp"
+        android:translationX="10dp"
+        android:translationY="560dp"
+        app:srcCompat="@drawable/ic_baseline_apps_24" />
+
+</RelativeLayout>

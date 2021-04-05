@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.unikme">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UNIKME">
+        <activity android:name=".test" />
+        <activity
+            android:name=".Register"
+            android:label="REGISTER" />
+        <activity
+            android:name=".login"
+            android:label="LOGIN PAGE" />
+        <activity
+            android:name=".cpActivity"
+            android:label="CEREBRAL PALSY" />
+        <activity
+            android:name=".autismActivity"
+            android:label="AUTISM" />
+        <activity
+            android:name=".speechActivity"
+            android:label="SPEECH IMPAIRED" />
+        <activity
+            android:name=".hearActivity"
+            android:label="HEARING IMPAIRED" />
+        <activity
+            android:name=".Activity6"
+            android:label="APPSTORE" />
+        <activity
+            android:name=".Activity5"
+            android:label="COMMUNITY" />
+        <activity
+            android:name=".Activity4"
+            android:label="DAILY NEWS" />
+        <activity
+            android:name=".Activity3"
+            android:label="CONTACT" />
+        <activity
+            android:name=".Activity2"
+            android:label="DASH BOARD" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
